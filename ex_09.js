@@ -1,5 +1,6 @@
 
 
+
 const categories = document.querySelectorAll("div.col-xs-4")
 let count = 0
 categories.forEach((i) => {
@@ -25,6 +26,10 @@ categories.forEach((i) => {
 })
 
 findAndChangeNetworkImgs()
+powerAdapterPriceSum()
+
+
+
 
 function makePurple() {
     const imgs = document.querySelectorAll("img.img-responsive")
@@ -71,4 +76,27 @@ function findAndChangeNetworkImgs(){
         k++
     })
 
+}
+
+
+function powerAdapterPriceSum() {
+    const catNames = document.getElementsByClassName("col-xs-12 col-sm-6 half-hero-outer-container")
+
+    let k = 0
+    let sum = 0
+    while (k < catNames.length) {
+        
+        if(catNames[k].getElementsByTagName("h2")[0].innerHTML.split(" ")[0] === "Power,"){
+            console.log(k)
+            let prices = document.getElementsByClassName("half-hero-pricing")
+            
+            sum += parseInt(prices[k*4    ].innerHTML.split("$")[1], 10)
+            sum += parseInt(prices[k*4 + 1].innerHTML.split("$")[1], 10)
+            sum += parseInt(prices[k*4 + 2].innerHTML.split("$")[1], 10)
+            sum += parseInt(prices[k*4 + 3].innerHTML.split("$")[1], 10)
+        }
+        k++
+    }
+
+    alert("Sum of Power products = " + sum)
 }
