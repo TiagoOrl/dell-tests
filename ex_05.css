@@ -1,0 +1,18 @@
+
+
+
+
+/* top buttons */
+.wrapper-quote.bg-dark .btn>div, .wrapper-quote.bg-dark .btn .cta-play, .wrapper-quote.bg-medium .btn>div, .wrapper-quote.bg-medium .btn .cta-play, .rendition.rendition.rendition.bg-dark .btn>div, .rendition.rendition.rendition.bg-dark .btn .cta-play, .rendition.rendition.rendition.bg-medium .btn>div, .rendition.rendition.rendition.bg-medium .btn .cta-play, .wrapper.wrapper.bg-dark .btn>div, .wrapper.wrapper.bg-dark .btn .cta-play, .wrapper.wrapper.bg-medium .btn>div, .wrapper.wrapper.bg-medium .btn .cta-play, .row.bg-dark .btn>div, .row.bg-dark .btn .cta-play, .row.bg-medium .btn>div, .row.bg-medium .btn .cta-play, .bg-dark .btn>div, .bg-dark .btn .cta-play, .bg-medium .btn>div, .bg-medium .btn .cta-play {
+    border-color: #fff;
+    background-color: "transparent";
+    color: #ffffff
+}
+
+
+/* middle buttons */
+.wrapper-quote.bg-dark .btn.secondary>div, .wrapper-quote.bg-dark .btn.secondary .cta-play, .wrapper-quote.bg-medium .btn.secondary>div, .wrapper-quote.bg-medium .btn.secondary .cta-play, .rendition.rendition.rendition.bg-dark .btn.secondary>div, .rendition.rendition.rendition.bg-dark .btn.secondary .cta-play, .rendition.rendition.rendition.bg-medium .btn.secondary>div, .rendition.rendition.rendition.bg-medium .btn.secondary .cta-play, .wrapper.wrapper.bg-dark .btn.secondary>div, .wrapper.wrapper.bg-dark .btn.secondary .cta-play, .wrapper.wrapper.bg-medium .btn.secondary>div, .wrapper.wrapper.bg-medium .btn.secondary .cta-play, .row.bg-dark .btn.secondary>div, .row.bg-dark .btn.secondary .cta-play, .row.bg-medium .btn.secondary>div, .row.bg-medium .btn.secondary .cta-play, .bg-dark .btn.secondary>div, .bg-dark .btn.secondary .cta-play, .bg-medium .btn.secondary>div, .bg-medium .btn.secondary .cta-play {
+    border-color: #fff;
+    background-color: #fff;
+    color: blue
+}
