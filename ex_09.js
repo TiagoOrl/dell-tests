@@ -4,8 +4,8 @@
 const categories = document.querySelectorAll("div.col-xs-4")
 let count = 0
 categories.forEach((i) => {
-    i.getElementsByTagName("a")[0].href = "#"
 
+    i.getElementsByTagName("a")[0].href = "#"
 
     if (count > 2) count = 0
     
